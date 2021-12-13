@@ -8,6 +8,9 @@ document.writeln("Il tuo lancio di dado vale " + firstDice + ", mentre il lancio
 if (firstDice > secondDice){
     document.writeln("Congratulazioni! Hai vinto!");
 }
+else if (firstDice == secondDice){
+    document.writeln("Pareggio!")
+}
 else {
     document.writeln("Purtroppo hai perso! Ritenta!");
 }
